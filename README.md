@@ -1,2 +1,0 @@
-# neo-notetaker
-# neo-notetaker
