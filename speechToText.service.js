@@ -1,7 +1,7 @@
 import fs from 'fs'
 import speech from '@google-cloud/speech'
+import 'dotenv/config'
 
-process.env.GOOGLE_APPLICATION_CREDENTIALS = 'key.json'
 async function transcribeAudio(audioName) {
   try {
     const speechClient = new speech.SpeechClient()
@@ -35,4 +35,4 @@ async function transcribeAudio(audioName) {
   }
 }
 
-export default transcribeAudio
+export const speechToTextService = { transcribeAudio }

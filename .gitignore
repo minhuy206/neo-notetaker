@@ -1,5 +1,5 @@
 # compiled output
-/node_modules
+node_modules
 
 # OS
 .DS_Store
@@ -7,3 +7,9 @@
 key.json
 
 test.js
+
+.env
+
+chunks
+
+transcriptions
