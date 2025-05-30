@@ -70,13 +70,12 @@ export class BotService {
     this.logger.log('Starting watcher...')
 
     this.watcher.on('add', async (filePath) => {
-      this.logger.log(`New file detected: ${filePath}`)
       try {
         if (!this.filePathPattern.test(filePath)) {
           return
         }
-        console.log(`File ${filePath} has been added`)
-
+        this.logger.log(`New file detected: ${filePath}`)
+        this.logger.log(`File ${filePath} has been added`)
         const transcript = await this.transcriptionService.transcribe(filePath)
         await Promise.all([
           this.storageService.saveAudio(
