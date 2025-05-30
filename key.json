@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "neo-notetaker-456809",
+  "private_key_id": "0e53529e087ea03eab2b76eeabbc104c6f2bd6f8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCHLnOupdm/+aIT\nUgff3b9sZAKwjGFoSaPsWLwooNip4+9tiVFowRY/0SdvXG+xMZFk0fOYscAMgLH2\nNbHyHe6N0EUolRcziFSHPbl5pByH1saEvpidmDwBohSgTSvn1A9Waf9JYU5yTktM\nQxAqzj+JeXoCG8O108HvQObPakFYxz4995D1XC9+ikO0w2jCxhxRg+0AhoR4DLDc\nQoO3R4/CAmNV1GoY0MExzI0Sos24FS5uqhTG0i31+nda1fK3JiAUIkLD0996neBB\nsh+HPr3YaiSFLI2oeSgZgNAEDR/gkOTpXTi0t3vwENqKCnKAIkMBJpvbrdmWj8nt\nMpPewlFrAgMBAAECggEAOwp7RQKz1YiClLylqs1vbzhJAnH1kzZijXX+DCKgLqda\nabVpZH68qHfBqP4u3C3Bik62fXDY570HvPibtRsEl1So9/4R6ZR4Eq9PRET8nwmb\nn9uczWvxfWccahz6eaDhaAUYliSVPhBbC75Yn9F/55uyQZx9wHrxv3zRsjJ+wvZ0\nA+uAom2xgiWW/9oFNiJHRu8ZQe/9WNp8VwOKx5tQ0fTnog1ZPWnlB5YIByWidtM6\nVfeJ5d3DX68VJeBhDFTpzlV+u3WTS3ywZ7DmB2h2Bt6rAuZ+HfvtLykBsiQGZiCy\ne7Gq8Je0eN3DcoDq3heD646LiMErRm4LgN/8WsLMvQKBgQC7r+TKkFyR+mOzOOHB\nvkzHUXBTdXKKnsOFwsztk0oaJiU1ineujM3dLfB7St0R2rsnJ9Eo60jmfUMu044v\nL/FzYzYpclL3LkMN3+T+GbCIeY5JzLUjoQpAL0N6Gt7tNQi40MOhO6Btc0DQH7OM\n8nPVF4qH5LyV7lnrLoZpb3zGFwKBgQC4Yj6croWPqfIilrZeamV9wT0+kVBlpgo3\nZaSPhn/mQuGPfJ8/rurXceOToLx1TuPmCkuO84WVUoyR2EPqCIp70g0vfqO/8r0x\nzImDpRm2gE526IQ2Y2jry7jTt1JjZNp9M/iHIpAdDBj6bRdBJVKmJBRVi8ywUngC\nZSaRMzV3zQKBgQCrutRP1+krlHw3F3vRZ0sfMM/jPVpxpbTnJgeV9afe5zoylCDP\n8HvIvekFFsnSNV37BL6nfykz5DddmCrH2ElHt+Zt4/Ivwv+NqWgAbAcPyJE9y3WO\nRSJ4+gX2qrGBP35chIALfeBbZRJPnEIQXCNKPgD+OHepg+54dxh7ToxPPwKBgCRM\ngxMJcJXV2StiDEkOHSjisBHvPaqlQ4GgawMucWN9azZ6TEeXQfhkHW9kx3U4sLkK\n8dEUtAmvlKjpsIUUZV72/U2KWuZg/UoegDwAds1s+QWDxPOIIpG5K4vSnU+f/TuE\nzbqc3U46oXg7ncZfeKPomnA083kK40FldHBFapNJAoGBALEiRTzj199lpVzjumLt\nrBfrT2cRPeB/18OhAkjLbqUuJ22XgP5l8yI4GtuS1Eof4ulx1XK/6ZfRI2pzDBAB\nGPyuNpOXDWbG5Hqg9P2ObxykT/gPgjoewxzQ2p28Gvith42mKr1jkZJFzAQ1nXqe\nJ6/I1BzpR22qh12ln1mUm1HI\n-----END PRIVATE KEY-----\n",
+  "client_email": "neo-notetaker-bot@neo-notetaker-456809.iam.gserviceaccount.com",
+  "client_id": "111684523225498353742",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/neo-notetaker-bot%40neo-notetaker-456809.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
