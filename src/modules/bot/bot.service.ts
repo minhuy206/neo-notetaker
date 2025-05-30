@@ -118,9 +118,7 @@ export class BotService {
     puppeteer.use(stealthPlugin)
     const config: any = {
       headless: 'new',
-      executablePath: this.configService.get<string>(
-        'PUPPETEER_EXECUTABLE_PATH'
-      ),
+      executablePath: '/usr/bin/chromium',
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
