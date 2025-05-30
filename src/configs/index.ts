@@ -1,9 +1,9 @@
-import { ConfigModule } from '@nestjs/config';
-import * as Joi from 'joi';
-import { ApplicationConfiguration } from 'src/configs/domains/application.domain';
-import { AuthConfiguration } from 'src/configs/domains/auth.domain';
-import { DomainEnum } from 'src/configs/enums/domain.enum';
-import { IAppConfig } from 'src/configs/interfaces/application-config.interface';
+import { ConfigModule } from '@nestjs/config'
+import * as Joi from 'joi'
+import { ApplicationConfiguration } from 'src/configs/domains/application.domain'
+import { AuthConfiguration } from 'src/configs/domains/auth.domain'
+import { DomainEnum } from 'src/configs/enums/domain.enum'
+import { IAppConfig } from 'src/configs/interfaces/application-config.interface'
 
 const validationSchema: Joi.ObjectSchema<IAppConfig> = Joi.object({
   // App domain validation
@@ -24,15 +24,22 @@ const validationSchema: Joi.ObjectSchema<IAppConfig> = Joi.object({
 
   // Bot validation
   BOT_FOLDER_PATH: Joi.string().default('audio_data'),
-});
 
-const DomainRegistraions: any[] = [ApplicationConfiguration, AuthConfiguration];
+  // CHROMIUM_PATH is used to specify the path to the Chromium executable.
+  PUPPETEER_EXECUTABLE_PATH: Joi.string().default('/usr/bin/chromium'),
+
+  // Record config
+  MAX_DURATION: Joi.number().default(30),
+  MAX_SESSIONS: Joi.number().default(4)
+})
+
+const DomainRegistraions: any[] = [ApplicationConfiguration, AuthConfiguration]
 
 const AppConfigModule = ConfigModule.forRoot({
   isGlobal: true,
   envFilePath: ['.env'],
   load: DomainRegistraions,
-  validationSchema,
-});
+  validationSchema
+})
 
-export { AppConfigModule, DomainEnum };
+export { AppConfigModule, DomainEnum }
